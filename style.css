@@ -8,10 +8,11 @@
 .header {
   background-color: #1f2937;
   color: #f9faf8;
-  height: 500px;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   gap: 70px;
+  margin-bottom: 70px;
 }
 
 .logo {
@@ -67,7 +68,7 @@ p {
   gap: 15px;
 }
 
-img {
+.img-header {
   width: 600px;
   height: 250px;
   background-color: aqua;
@@ -81,4 +82,43 @@ button {
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
+}
+
+.section-information {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  padding: 0px 250px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.img-info {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+}
+
+.outer-img-text {
+  display: flex;
+}
+
+.img-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-text-container p {
+  text-align: center;
+  color: #7e8083;
 }
