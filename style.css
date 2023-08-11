@@ -71,7 +71,7 @@ p {
 .img-header {
   width: 600px;
   height: 250px;
-  background-color: aqua;
+  background-color: rgb(180, 186, 186);
 }
 
 button {
@@ -121,4 +121,75 @@ h2 {
 .img-text-container p {
   text-align: center;
   color: #7e8083;
+}
+
+.section-quote {
+  min-height: 350px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px 300px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #4e4f51;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-autor {
+  align-self: flex-end;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.section-cta {
+  background-color: #fff;
+  min-height: 300px;
+}
+
+.white-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  margin: 100px 200px;
+  border-radius: 10px;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+
+.action {
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.sign-up-button {
+  align-self: center;
+  width: 130px;
+  height: 40px;
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 3px solid #fff;
+}
+
+.section-footer {
+  min-height: 100px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: #ffffff;
 }
